@@ -1,11 +1,14 @@
-## Note
+# React / Typescript Technical Test
 
-Icons & Fonts may not look the exact same due to copyright.
+**Note:**
+Icons & Fonts may look different due to possibly being subject to copyright. 
 
-## What's missing?
+### What's missing?
 
 * Error handling
+    * *Why*? Hard to simulate on subject & design not provided.  
 * Unit & intergration tests
+    * *Why*? Assuming not necessary, if assessment includes visual inspection of code.
 
 ### Todo
 
@@ -16,5 +19,5 @@ Icons & Fonts may not look the exact same due to copyright.
 * UI polishing
 * Code cleanup
 
-### View Shot
+### Screenshot
 <img src="view-shot/Screenshot-React-Typescript-Technical-Test.png" width="500"  />
