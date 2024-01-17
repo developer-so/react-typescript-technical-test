@@ -1,4 +1,5 @@
-import settings from '../icon/settings_FILL0_wght400_GRAD0_opsz24.svg';
+import IconPlaceholder from '../../../common/icon/IconPlaceholder';
+
 export default function Tab() {
     return (
         <div className="border-b border-gray-200 ">
@@ -16,8 +17,8 @@ export default function Tab() {
                         <div className="mt-auto  border-b-4 rounded-full border-transparent hs-tab-active:border-sky-500"></div>
                     </div>
                 </a>
-                <div className='flex justify-center size-[38px] px-[8px] mx-[8px] my-auto '>
-                    <img src={settings} alt="Settings icon" />
+                <div className="hidden sm:block">
+                    <IconPlaceholder />
                 </div>
             </nav>
         </div >

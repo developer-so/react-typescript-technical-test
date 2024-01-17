@@ -1,5 +1,3 @@
-import React from 'react'
-
 export default function ActionPlaceholder() {
     return (
         <div className="flex justify-center items-center size-[34px]">

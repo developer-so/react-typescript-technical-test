@@ -1,11 +1,11 @@
 import { useState } from "react";
-import ActionPlaceholder from "./ActionPlaceholder";
-import Avatar from "./Avatar";
-// import PostType from "./PostType";
+import ActionPlaceholder from "./action/ActionPlaceholder";
+import Avatar from "../../common/avatar/Avatar";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import Repo from "../data/repo/Repo";
-import PostType from "./PostType";
+import Repo from "../../data/repo/Repo";
+import PostType from "../PostType";
+import { AvatarSize } from "../../common/avatar/AvatarSize";
 
 export default function AddPost() {
     const [post, setPost] = useState<string>('');
@@ -17,22 +17,8 @@ export default function AddPost() {
 
     function addPost() {
         setBusy(true);
-        Repo.add(newPost).then(function (response) {
-            console.log(response.data);
-            setPost('');
-        })
-            .catch(function (error) {
-                // handle error
-                console.log(error);
-            })
-            .finally(function () {
-                setBusy(false)
-            });
-
-        setTimeout(() => {
-            setBusy(false);
-        }, 3000)
-
+        Repo.add(newPost).then((response) => setPost(''))
+            .finally(() => setBusy(false));
     }
 
     const notify = () => toast.success("Wow so easy!");
@@ -41,7 +27,9 @@ export default function AddPost() {
         <div className="flex flex-col">
             <div className="flex px-[16px] pb-[12px] ">
                 <div className="mt-[12px] " />
-                <Avatar />
+                <div className=" mr-[12px] pt-[12px]">
+                    <Avatar size={AvatarSize.large} />
+                </div>
                 <div className="flex flex-col mb-[2px] pt-[4px] w-full">
 
                     <textarea id="hs-textarea-with-corner-hint"
@@ -98,8 +86,6 @@ export default function AddPost() {
                         </div>
                     </div>
                 </div>
-                {/* <AddPostField /> */}
-
             </div>
             <hr />
         </div>

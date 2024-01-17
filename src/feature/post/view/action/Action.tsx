@@ -1,9 +1,9 @@
 import ActionItem from './ActionItem';
-import reply from './icon/chat_bubble_FILL0_wght400_GRAD0_opsz20.svg';
-import repost from './icon/cached_FILL0_wght400_GRAD0_opsz20.svg';
-import like from './icon/favorite_FILL0_wght400_GRAD0_opsz20.svg';
-import bookmark from './icon/bookmark_FILL0_wght400_GRAD0_opsz20.svg';
-import share from './icon/ios_share_FILL0_wght400_GRAD0_opsz20.svg';
+import reply from '../../icon/chat_bubble_FILL0_wght400_GRAD0_opsz20.svg';
+import repost from '../../icon/cached_FILL0_wght400_GRAD0_opsz20.svg';
+import like from '../../icon/favorite_FILL0_wght400_GRAD0_opsz20.svg';
+import bookmark from '../../icon/bookmark_FILL0_wght400_GRAD0_opsz20.svg';
+import share from '../../icon/ios_share_FILL0_wght400_GRAD0_opsz20.svg';
 
 export default function Action() {
     return (

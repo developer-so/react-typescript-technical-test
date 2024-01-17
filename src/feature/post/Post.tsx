@@ -1,15 +1,19 @@
-import { formatDate } from "../../util/DateUtil";
-import Action from "./Action";
+import { formatDate } from "../common/date/DateUtil";
+import Action from "./view/action/Action";
+import Avatar from "../common/avatar/Avatar";
 import PostType from "./PostType";
 
 export default function Post(post: PostType) {
     return (
         <div className="flex flex-col">
             <div className="flex px-[16px] py-[12px] ">
-                <div className="mt-[12px] " />
+                {/* <div className="mt-[12px] " />
                 <a className="size-[44px] mr-[12px]" href="/">
                     <div className="size-[40px] bg-gray-500 rounded-full"></div>
-                </a>
+                </a> */}
+                <div className=" mr-[12px]">
+                    <Avatar />
+                </div>
                 <div className="flex flex-col mb-[2px]">
                     <div>
                         <a className="mr-[2px]" href="/">

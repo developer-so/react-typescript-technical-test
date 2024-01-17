@@ -1,4 +1,5 @@
-import search from './search_FILL0_wght400_GRAD0_opsz24.svg';
+import search from '../icon/search_FILL0_wght400_GRAD0_opsz24.svg';
+
 export default function Search() {
     return (
         <div className="flex bg-gray-100 rounded-full mt-[4px] mb-[12px]">
