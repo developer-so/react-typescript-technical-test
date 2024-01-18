@@ -8,7 +8,7 @@ Because of bugs and time constraint, edit & delete UI has been improvised.
 ### What's missing?
 * Toasts
 * Error handling
-    * *Why*? Hard to simulate on subject & design not provided.  
+    * *Why*? Hard to simulate on subject.  
 * Unit & intergration tests
     * *Why*? Assuming not necessary, if assessment includes visual inspection of code.
 
