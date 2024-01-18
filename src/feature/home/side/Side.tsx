@@ -3,7 +3,7 @@ import Trend from "./view/Trend"
 
 export default function Side() {
     return (
-        <div className="flex grow flex-col mx-[16px] max-w-[350px]">
+        <div className="mx-[16px]  flex flex-col grow">
             <Search />
             <Trend />
         </div>

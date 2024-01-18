@@ -3,7 +3,7 @@ interface Prop {
     label: string,
 }
 
-export default function ActionItem(prop: Prop) {
+export default function PostActionItem(prop: Prop) {
     return (
         <div className="flex grow">
             <img src={prop.icon} alt="Reply icon" width={18} height={18} />

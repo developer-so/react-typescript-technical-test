@@ -1,23 +1,21 @@
 # React / Typescript Technical Test
 
 **Note:**
-Icons & Fonts may look different due to possibly being subject to copyright. 
+Icons & Fonts may look different due to possibly being subject to copyright.
+
+Because of bugs and time constraint, edit & delete UI has been improvised.
 
 ### What's missing?
-
+* Toasts
 * Error handling
     * *Why*? Hard to simulate on subject & design not provided.  
 * Unit & intergration tests
     * *Why*? Assuming not necessary, if assessment includes visual inspection of code.
 
-### Todo
-
-* Get post by id
-* Update post
-* Delete post
-* Responsiveness
-* UI polishing
-* Code cleanup
 
 ### Screenshot
-<img src="view-shot/Screenshot-React-Typescript-Technical-Test.png" width="500"  />
+
+<span float="left" >
+<img src="screenshot/Screenshot-React-Typescript-Technical-Test-2024-01-18-at-10.39.16.png" width="400"  />
+<img src="screenshot/Screenshot-React-Typescript-Technical-Test-2024-01-18-at-10.32.07.png" width="129"  />
+</span>

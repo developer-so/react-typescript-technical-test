@@ -16,9 +16,13 @@ const get = (id: string) => instance.get<Post | null>(postsPath);
 
 const add = (post: Post) => instance.post<Post>(postsPath, post);
 
-const update = (id: string, post: Post) => instance.put<Array<Post> | null>(`${postsPath}/${id}`, post);
+const update = (post: Post) => {
+    console.log('tht thteh tteh post', post)
+    return instance.patch<Post>(`${postsPath}/${post.id}`, post);
+}
 
-const _delete = (id: string) => instance.delete<Array<Post> | null>(postsPath);
+const _delete = (id: string) => instance.delete<Post>(`${postsPath}/${id}`);
+
 
 
 export { getAll, get, add, update, _delete as delete }

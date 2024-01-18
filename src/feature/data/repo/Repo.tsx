@@ -8,7 +8,7 @@ class Repo {
 
     add = (post: Post) => Remote.add(post);
 
-    update = (post: Post, id: string) => Remote.update(id, post);
+    update = (post: Post) => Remote.update(post);
 
     delete = (id: string) => Remote.delete(id);
 }
