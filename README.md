@@ -17,5 +17,5 @@ Because of bugs and time constraint, edit & delete UI has been improvised.
 
 <span float="left" >
 <img src="screenshot/Screenshot-React-Typescript-Technical-Test-2024-01-18-at-10.39.16.png" width="400"  />
-<img src="screenshot/Screenshot-React-Typescript-Technical-Test-2024-01-18-at-10.32.07.png" width="129"  />
+&nbsp;&nbsp;&nbsp;<img src="screenshot/Screenshot-React-Typescript-Technical-Test-2024-01-18-at-10.51.30.png" width="129"  />
 </span>
